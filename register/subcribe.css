@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-image: url("/images/astronaut.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;/*inetrnet helps*/
+    background-size: cover;
+    background-position: center;/*inetrnet helps*/
+}
+
+#logo {
+  width: 30%;
+  transition: transform 0.5s;
+  margin-top: 7%;
+  margin-left: 35%;
+  box-shadow: 0px 10px 100px rgba(0, 0, 0, 10); /*inetrnet helps*/
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+form {
+    max-width: 380px;
+    margin: auto;
+    margin-bottom: 10%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.5s;
+}
+
+form:hover {
+    transform: scale(1.05);
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+    color: whitesmoke;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+select {
+    padding: 8px;
+}
+
+input[type="submit"], [type="reset"] {
+    background-color: #FFDC00;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+input[type="submit"]:hover, [type="reset"]:hover {
+    transform: scale(1.07);
+}
+
+p {
+    color: whitesmoke;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
